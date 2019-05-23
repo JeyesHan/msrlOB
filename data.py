@@ -62,10 +62,6 @@ def generate_bounding_box_from_annotation(annotation, image_shape):
     return masks
 
 
-def get_ids_objects_from_annotation(annotation):
-    return annotation[:, 0]
-
-
 def get_id_of_class_name (class_name):
     if class_name == 'aeroplane':
         return 1
